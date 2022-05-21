@@ -25,5 +25,5 @@ print(random.randrange(0, 10))
 
 import datetime
 print(datetime.date.today())
-
+print(datetime.datetime.now())
 
