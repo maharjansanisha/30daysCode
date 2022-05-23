@@ -17,6 +17,12 @@ s.close()
 import os 
 os.remove("txt.txt")
 
+# with open
+
+with open("new.txt", "w") as f:
+    f.write("Hello World, thank you.")
+    
+
 #program to count total number of uppercase and lowercase and digits used in the txt file
 
 f = open ("examp.txt", "a")
