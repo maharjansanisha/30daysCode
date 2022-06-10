@@ -66,7 +66,9 @@ class Notepad:
 		self.__thisFileMenu.add_command(label="Exit",
 										command=self.__quitApplication)
 		self.__thisMenuBar.add_cascade(label="File",
-									menu=self.__thisFileMenu)
+									menu=self.__thisFileMenu)	
+		
+		# To give a feature of cut
 		self.__thisEditMenu.add_command(label="Cut",
 										command=self.__cut)	
 		self.__thisEditMenu.add_command(label="Copy",
@@ -92,7 +94,7 @@ class Notepad:
 		self.__root.destroy()
 
 	def __showAbout(self):
-		showinfo("Notepad","Mrinal Verma")
+		showinfo("Notepad","Hello World!")
 
 	def __openFile(self):
 		
